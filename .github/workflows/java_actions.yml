@@ -1,0 +1,10 @@
+name: First Action Workflow
+on: [push]
+
+jobs:
+  run-shell-commands:
+    runs-on: ubuntu-latest
+    steps:
+      - name: simple js actions
+        uses: /home/akber/github_actions/hello-world-javascript-action
+        
